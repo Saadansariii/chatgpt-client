@@ -23,19 +23,19 @@ function App() {
   };
 
   return (
-    <div className="bg-[#0e0c17] h-screen py-6 relative sm:px-16 px-12 text-white overflow-hidden flex flex-col justify-between  align-middle">
+    <div className="bg-[#0e0c17] h-screen py-6 relative sm:px-16 px-12 text-white overflow-hidden flex flex-col justify-between  align-middle h-fit">
       {/* gradients */}
       <div className="gradient-01 z-0 absolute"></div>
       <div className="gradient-02 z-0 absolute"></div>
 
       {/* header */}
-      <div className="uppercase font-bold  text-2xl text-center mb-3">
+      <div className="uppercase font-bold  text-2xl text-center mb-2">
         <h3>ChatGpt2.0</h3>
       </div>
 
       {/* body */}
       <div
-        className="h-[100vh] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-2 self-center
+        className="h-[60%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-2 self-center
       scrollbar-thumb-slate-400 scrollbar-thin scrollbar-track-gray-tranparent scrollbar-thumb-rounded-md
       "
       >

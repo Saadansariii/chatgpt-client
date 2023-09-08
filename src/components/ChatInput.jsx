@@ -27,7 +27,7 @@ const ChatInput = ({ sendMessage, loading }) => {
             value={value}
             type="text"
             onChange={(e) => setValue(e.target.value)}
-          placeholder="type-here"/>
+          placeholder="Typehere"/>
 
           <img
             onClick={handleSubmit}
