@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+.gradient-01 {
+  position: absolute;
+  width: 100px;
+  height: 208px;
+  top: 0;
+  background: #ba82c872;
+  filter: blur(175px);
+}
+
+.gradient-02 {
+  position: absolute;
+  width: 100px;
+  height: 208px;
+  top: -6rem;
+  right: 0px;
+  background: #ffffff;
+  filter: blur(190px)
+}
+
+@media screen and (min-width:1000px){
+  .gradient-01{
+    display: none;
+  }
+
+  .gradient-02{
+    display: none;
+  }
+}
