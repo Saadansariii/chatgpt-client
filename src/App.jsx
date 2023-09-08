@@ -35,7 +35,7 @@ function App() {
 
       {/* body */}
       <div
-        className="h-[70%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-2 self-center
+        className="h-[60%] overflow-auto w-full max-w-4xl min-w-[20rem] py-8 px-2 self-center
       scrollbar-thumb-slate-400 scrollbar-thin scrollbar-track-gray-tranparent scrollbar-thumb-rounded-md
       "
       >
