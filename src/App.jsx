@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className="bg-[#0e0c17] h-screen py-6 relative sm:px-16 px-12 text-white overflow-hidden flex flex-col justify-between  align-middle h-fit">
+    <div className="bg-[#0e0c17] h-screen py-6 relative sm:px-16 px-12 text-white overflow-hidden flex flex-col justify-between  align-middle h-auto">
       {/* gradients */}
       <div className="gradient-01 z-0 absolute"></div>
       <div className="gradient-02 z-0 absolute"></div>
